@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+@import url('https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css'); /* Bootstrap import */
+
+
+body {
+  background: linear-gradient(135deg, #3494e6, #ec6ead);
+  /* color: #ffffff; */
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 10vh;
+  font-family: 'Lato', sans-serif;
+  line-height: 1.6;
+  /* overflow: hidden; Add this line to disable scrolling */
+}
+
+.container {
+  margin: 30px auto;
+  width: 150%;
+  max-width: 700px;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+h1, h3, h4 {
+  color: #495057;
+}
+
+.mt-4 {
+  margin-top: 1.5rem !important;
+}
+
+.card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-title {
+  color: #6c757d;
+}
+
+.card-text {
+  font-size: 2rem;
+}
+
+.text-success {
+  color: #28a745;
+}
+
+.text-danger {
+  color: #dc3545;
+}
